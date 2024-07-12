@@ -37,7 +37,3 @@ class Library:
         for book in self._books:
             if not book._is_checked_out:
                 print(book)
-
-    # Add method for ALX validation
-    def return_book(self):
-        pass
