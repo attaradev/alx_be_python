@@ -24,6 +24,10 @@ class Library:
                 return "Book checked out."
         return "Book not found."
 
+    # Add method to pass ALX Validation
+    def return_book(self):
+        pass
+
     def return_book(self, title):
         for book in self._books:
             if book.title == title:
@@ -37,7 +41,3 @@ class Library:
         for book in self._books:
             if not book._is_checked_out:
                 print(book)
-
-    # Add method to pass ALX Validation
-    def return_book(self):
-        pass
